@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'XXShield'
-  s.version          = '2.1.2'
+  s.version          = '2.1.3'
   s.summary          = 'Avoid Crash'
   s.description      = <<-DESC
   1. unrecoginzed Selector Crash

@@ -47,6 +47,8 @@
 		2128D86D1FD64C81004F63D8 /* XXMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE3120CC8DA37FE4A206857581CACCD /* XXMetamacros.h */; };
 		2128D86E1FD64C83004F63D8 /* XXShieldSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DA940730DC16F67DFEB07FEE564705 /* XXShieldSwizzling.h */; };
 		2128D86F1FD64C86004F63D8 /* XXShieldSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F733FE7D8383FFDF00E74726BFC83B /* XXShieldSwizzling.m */; };
+		2128D8711FD660DA004F63D8 /* NSArrayObjectAtIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CB554DDFBDAC97B37180A86E26FD01 /* NSArrayObjectAtIndex.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2128D8721FD660DA004F63D8 /* NSArrayWithObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = E68B394EA5C06921CE409DA25CD497F9 /* NSArrayWithObjects.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		220B3274A64643A17559C4B042A14B70 /* NSObject+DanglingPointer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31171B2F154049D80889AB0AA6E8D6A8 /* NSObject+DanglingPointer.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		22E9F6FA56858A5F7A5D664E5968ECB0 /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 728B660135AE89C557C10A6FCCB94D9B /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2398849B666845341B2ECC887E21B9F7 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301223B3EB74E21CDB1303C459B57231 /* ExampleHooks.swift */; };
@@ -831,6 +833,8 @@
 			files = (
 				2128D8561FD64C0B004F63D8 /* XXShield.h in Headers */,
 				2128D8571FD64C44004F63D8 /* XXShieldSDK.h in Headers */,
+				2128D8711FD660DA004F63D8 /* NSArrayObjectAtIndex.h in Headers */,
+				2128D8721FD660DA004F63D8 /* NSArrayWithObjects.h in Headers */,
 				2128D86D1FD64C81004F63D8 /* XXMetamacros.h in Headers */,
 				2128D85D1FD64C4A004F63D8 /* XXDanglingPonterService.h in Headers */,
 				2128D8681FD64C64004F63D8 /* XXRecord.h in Headers */,
