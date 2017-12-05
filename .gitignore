@@ -35,8 +35,8 @@ xcuserdata/
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 # Ignore every thing except the project configuration file
- Example/Pods/*
- !Example/Pods/Pods.xcodeproj
+Example/Pods/*
+!Example/Pods/Pods.xcodeproj
 
 # Carthage
 #
@@ -56,11 +56,3 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
-
-# Code Injection
-#
-# After new code Injection tools there's a generated folder /iOSInjectionProject
-# https://github.com/johnno1962/injectionforxcode
-
-iOSInjectionProject/
-Example/Pods
