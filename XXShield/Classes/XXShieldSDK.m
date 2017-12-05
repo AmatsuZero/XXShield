@@ -79,10 +79,14 @@
 + (void)registerNotification {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
+#if XX_MAC
+        shield_hook_load_group(XXForOCString(ProtectNoti));
+#else
         BOOL ABOVE_IOS8  = (([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) ? YES : NO);
         if (!ABOVE_IOS8) {
             shield_hook_load_group(XXForOCString(ProtectNoti));
         }
+#endif
     });
 }
 

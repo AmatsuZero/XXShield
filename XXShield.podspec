@@ -15,8 +15,8 @@ DESC
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.author           = { 'ValiantCat' => '519224747@qq.com' }
   s.source           = { :git => 'https://github.com/ValiantCat/XXShield.git', :tag => s.version.to_s }
-  s.platform         = :ios, '7.0'
   s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.10'
   s.module_map = 'XXShield/XXShield.modulemap'
   s.public_header_files   = 'XXShield/Classes/*.h'
   s.private_header_files = 'XXShield/Classes/template/*.h'

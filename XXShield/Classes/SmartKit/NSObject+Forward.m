@@ -10,11 +10,19 @@
 #import "XXShieldStubObject.h"
 #import "XXRecord.h"
 #import "XXShieldSwizzling.h"
+#if XX_MAC
+#import <Cocoa/Cocoa.h>
+#endif
 
 XXStaticHookClass(NSObject, ProtectFW, id, @selector(forwardingTargetForSelector:), (SEL)aSelector) {
     static struct dl_info app_info;
     if (app_info.dli_saddr == NULL) {
+#if XX_MAC
+        dladdr((__bridge void *)[NSApplication.sharedApplication.delegate class], &app_info);
+#else
         dladdr((__bridge void *)[UIApplication.sharedApplication.delegate class], &app_info);
+#endif
+        
     }
     struct dl_info self_info;
     dladdr((__bridge void *)[self class], &self_info);
