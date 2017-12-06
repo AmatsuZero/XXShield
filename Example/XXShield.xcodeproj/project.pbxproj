@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21216B361FD7C2EB009CA804 /* XXTimerNSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21216B351FD7C2EB009CA804 /* XXTimerNSViewController.m */; };
+		21216B391FD7CC87009CA804 /* XXKVONSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21216B381FD7CC87009CA804 /* XXKVONSViewController.m */; };
 		2128D87F1FD78B27004F63D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2128D87E1FD78B27004F63D8 /* AppDelegate.m */; };
 		2128D8821FD78B27004F63D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2128D8811FD78B27004F63D8 /* ViewController.m */; };
 		2128D8841FD78B27004F63D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2128D8831FD78B27004F63D8 /* Assets.xcassets */; };
@@ -56,6 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21216B341FD7C2EB009CA804 /* XXTimerNSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXTimerNSViewController.h; sourceTree = "<group>"; };
+		21216B351FD7C2EB009CA804 /* XXTimerNSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXTimerNSViewController.m; sourceTree = "<group>"; };
+		21216B371FD7CC87009CA804 /* XXKVONSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXKVONSViewController.h; sourceTree = "<group>"; };
+		21216B381FD7CC87009CA804 /* XXKVONSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXKVONSViewController.m; sourceTree = "<group>"; };
 		2128D87B1FD78B26004F63D8 /* XXShield_OSX_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXShield_OSX_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2128D87D1FD78B27004F63D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2128D87E1FD78B27004F63D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -165,20 +171,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		2128D87C1FD78B26004F63D8 /* XXShield_OSX_Example */ = {
+		2128D87C1FD78B26004F63D8 /* Example for XXShield-OSX */ = {
 			isa = PBXGroup;
 			children = (
 				2128D87D1FD78B27004F63D8 /* AppDelegate.h */,
 				2128D87E1FD78B27004F63D8 /* AppDelegate.m */,
 				2128D8801FD78B27004F63D8 /* ViewController.h */,
 				2128D8811FD78B27004F63D8 /* ViewController.m */,
+				21216B341FD7C2EB009CA804 /* XXTimerNSViewController.h */,
+				21216B351FD7C2EB009CA804 /* XXTimerNSViewController.m */,
+				21216B371FD7CC87009CA804 /* XXKVONSViewController.h */,
+				21216B381FD7CC87009CA804 /* XXKVONSViewController.m */,
 				2128D8831FD78B27004F63D8 /* Assets.xcassets */,
 				2128D8851FD78B27004F63D8 /* Main.storyboard */,
 				2128D8881FD78B27004F63D8 /* Info.plist */,
 				2128D8891FD78B27004F63D8 /* main.m */,
 				2128D88B1FD78B27004F63D8 /* XXShield_OSX_Example.entitlements */,
 			);
-			path = XXShield_OSX_Example;
+			path = "Example for XXShield-OSX";
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -187,7 +197,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for XXShield */,
 				6003F5B5195388D20070C39A /* Tests */,
-				2128D87C1FD78B26004F63D8 /* XXShield_OSX_Example */,
+				2128D87C1FD78B26004F63D8 /* Example for XXShield-OSX */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				17BF97ABE93938B2ED5393D0 /* Pods */,
@@ -606,6 +616,8 @@
 				2128D8901FD78ED7004F63D8 /* Student.m in Sources */,
 				2128D88F1FD78EC5004F63D8 /* Person.m in Sources */,
 				2128D87F1FD78B27004F63D8 /* AppDelegate.m in Sources */,
+				21216B361FD7C2EB009CA804 /* XXTimerNSViewController.m in Sources */,
+				21216B391FD7CC87009CA804 /* XXKVONSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,7 +715,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_ENTITLEMENTS = XXShield_OSX_Example/XXShield_OSX_Example.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Example for XXShield-OSX/XXShield_OSX_Example.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -712,7 +724,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = XXShield_OSX_Example/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example for XXShield-OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -741,7 +753,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_ENTITLEMENTS = XXShield_OSX_Example/XXShield_OSX_Example.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Example for XXShield-OSX/XXShield_OSX_Example.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -751,7 +763,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = XXShield_OSX_Example/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example for XXShield-OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
