@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2128D87F1FD78B27004F63D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2128D87E1FD78B27004F63D8 /* AppDelegate.m */; };
+		2128D8821FD78B27004F63D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2128D8811FD78B27004F63D8 /* ViewController.m */; };
+		2128D8841FD78B27004F63D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2128D8831FD78B27004F63D8 /* Assets.xcassets */; };
+		2128D8871FD78B27004F63D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2128D8851FD78B27004F63D8 /* Main.storyboard */; };
+		2128D88A1FD78B27004F63D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2128D8891FD78B27004F63D8 /* main.m */; };
+		2128D88F1FD78EC5004F63D8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9644181F1F5390004EB2F2 /* Person.m */; };
+		2128D8901FD78ED7004F63D8 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96441A1F1F5390004EB2F2 /* Student.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -35,6 +42,7 @@
 		CE96441B1F1F5390004EB2F2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9644181F1F5390004EB2F2 /* Person.m */; };
 		CE96441C1F1F5390004EB2F2 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96441A1F1F5390004EB2F2 /* Student.m */; };
 		CE9644221F1F53D2004EB2F2 /* XXTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9644211F1F53D2004EB2F2 /* XXTimerViewController.m */; };
+		FF84CEAA538918F6D0A1E1DF /* Pods_XXShield_OSX_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6922071C42ECA3132066DFDF /* Pods_XXShield_OSX_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +56,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2128D87B1FD78B26004F63D8 /* XXShield_OSX_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXShield_OSX_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2128D87D1FD78B27004F63D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2128D87E1FD78B27004F63D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2128D8801FD78B27004F63D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2128D8811FD78B27004F63D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2128D8831FD78B27004F63D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2128D8861FD78B27004F63D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2128D8881FD78B27004F63D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2128D8891FD78B27004F63D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2128D88B1FD78B27004F63D8 /* XXShield_OSX_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XXShield_OSX_Example.entitlements; sourceTree = "<group>"; };
 		24F7ABBBD291BB26F5220B32 /* Pods-XXShield_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXShield_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXShield_Example/Pods-XXShield_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3AA5DDFEFC7DA2D12EBD18CC /* Pods-XXShield_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXShield_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXShield_Tests/Pods-XXShield_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		413AF1DA80D1CD40123DE248 /* Pods_XXShield_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXShield_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4330CDEB016A71642EFB51EB /* Pods-XXShield_OSX_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXShield_OSX_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXShield_OSX_Example/Pods-XXShield_OSX_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4348C85E0526D1FB32681FCD /* Pods-XXShield_OSX_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXShield_OSX_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXShield_OSX_Example/Pods-XXShield_OSX_Example.release.xcconfig"; sourceTree = "<group>"; };
 		46EEA05012F18039114BAB98 /* XXShield.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = XXShield.podspec; path = ../XXShield.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XXShield_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXShield_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -71,6 +91,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		605E5EA041E249575181AD27 /* Pods-XXShield_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXShield_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXShield_Example/Pods-XXShield_Example.release.xcconfig"; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6922071C42ECA3132066DFDF /* Pods_XXShield_OSX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXShield_OSX_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8ED4B5E1A4E690247385A142 /* Pods-XXShield_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXShield_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXShield_Tests/Pods-XXShield_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +119,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2128D8781FD78B26004F63D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF84CEAA538918F6D0A1E1DF /* Pods_XXShield_OSX_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,8 +159,26 @@
 				605E5EA041E249575181AD27 /* Pods-XXShield_Example.release.xcconfig */,
 				3AA5DDFEFC7DA2D12EBD18CC /* Pods-XXShield_Tests.debug.xcconfig */,
 				8ED4B5E1A4E690247385A142 /* Pods-XXShield_Tests.release.xcconfig */,
+				4330CDEB016A71642EFB51EB /* Pods-XXShield_OSX_Example.debug.xcconfig */,
+				4348C85E0526D1FB32681FCD /* Pods-XXShield_OSX_Example.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		2128D87C1FD78B26004F63D8 /* XXShield_OSX_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2128D87D1FD78B27004F63D8 /* AppDelegate.h */,
+				2128D87E1FD78B27004F63D8 /* AppDelegate.m */,
+				2128D8801FD78B27004F63D8 /* ViewController.h */,
+				2128D8811FD78B27004F63D8 /* ViewController.m */,
+				2128D8831FD78B27004F63D8 /* Assets.xcassets */,
+				2128D8851FD78B27004F63D8 /* Main.storyboard */,
+				2128D8881FD78B27004F63D8 /* Info.plist */,
+				2128D8891FD78B27004F63D8 /* main.m */,
+				2128D88B1FD78B27004F63D8 /* XXShield_OSX_Example.entitlements */,
+			);
+			path = XXShield_OSX_Example;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -140,6 +187,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for XXShield */,
 				6003F5B5195388D20070C39A /* Tests */,
+				2128D87C1FD78B26004F63D8 /* XXShield_OSX_Example */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				17BF97ABE93938B2ED5393D0 /* Pods */,
@@ -151,6 +199,7 @@
 			children = (
 				6003F58A195388D20070C39A /* XXShield_Example.app */,
 				6003F5AE195388D20070C39A /* XXShield_Tests.xctest */,
+				2128D87B1FD78B26004F63D8 /* XXShield_OSX_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,6 +213,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				413AF1DA80D1CD40123DE248 /* Pods_XXShield_Example.framework */,
 				91200C86A959D09414E48007 /* Pods_XXShield_Tests.framework */,
+				6922071C42ECA3132066DFDF /* Pods_XXShield_OSX_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -252,6 +302,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2128D87A1FD78B26004F63D8 /* XXShield_OSX_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2128D88E1FD78B27004F63D8 /* Build configuration list for PBXNativeTarget "XXShield_OSX_Example" */;
+			buildPhases = (
+				8CA86FDCB660787CB8B9B4B8 /* [CP] Check Pods Manifest.lock */,
+				2128D8771FD78B26004F63D8 /* Sources */,
+				2128D8781FD78B26004F63D8 /* Frameworks */,
+				2128D8791FD78B26004F63D8 /* Resources */,
+				6157C127F53EB0DB6EB1D134 /* [CP] Embed Pods Frameworks */,
+				E6EF88CF36458D9D4EAFC1BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XXShield_OSX_Example;
+			productName = XXShield_OSX_Example;
+			productReference = 2128D87B1FD78B26004F63D8 /* XXShield_OSX_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6003F589195388D20070C39A /* XXShield_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "XXShield_Example" */;
@@ -303,6 +373,14 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ValiantCat;
 				TargetAttributes = {
+					2128D87A1FD78B26004F63D8 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = YMUB8PUSZ5;
+						ProvisioningStyle = Automatic;
+					};
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = YMUB8PUSZ5;
+					};
 					6003F5AD195388D20070C39A = {
 						LastSwiftMigration = 0900;
 						TestTargetID = 6003F589195388D20070C39A;
@@ -324,11 +402,21 @@
 			targets = (
 				6003F589195388D20070C39A /* XXShield_Example */,
 				6003F5AD195388D20070C39A /* XXShield_Tests */,
+				2128D87A1FD78B26004F63D8 /* XXShield_OSX_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2128D8791FD78B26004F63D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2128D8841FD78B27004F63D8 /* Assets.xcassets in Resources */,
+				2128D8871FD78B27004F63D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,6 +507,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6157C127F53EB0DB6EB1D134 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XXShield_OSX_Example/Pods-XXShield_OSX_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XXShield-macOS/XXShield.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XXShield.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXShield_OSX_Example/Pods-XXShield_OSX_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		781938AC0F93748FA4A58294 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -437,6 +543,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8CA86FDCB660787CB8B9B4B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XXShield_OSX_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9DFC84AFE18390AD724CB597 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,7 +568,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XXShield_Example/Pods-XXShield_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XXShield/XXShield.framework",
+				"${BUILT_PRODUCTS_DIR}/XXShield-iOS/XXShield.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -455,9 +579,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXShield_Example/Pods-XXShield_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E6EF88CF36458D9D4EAFC1BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXShield_OSX_Example/Pods-XXShield_OSX_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2128D8771FD78B26004F63D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2128D8821FD78B27004F63D8 /* ViewController.m in Sources */,
+				2128D88A1FD78B27004F63D8 /* main.m in Sources */,
+				2128D8901FD78ED7004F63D8 /* Student.m in Sources */,
+				2128D88F1FD78EC5004F63D8 /* Person.m in Sources */,
+				2128D87F1FD78B27004F63D8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -498,6 +649,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2128D8851FD78B27004F63D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2128D8861FD78B27004F63D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -525,6 +684,83 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2128D88C1FD78B27004F63D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4330CDEB016A71642EFB51EB /* Pods-XXShield_OSX_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = XXShield_OSX_Example/XXShield_OSX_Example.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YMUB8PUSZ5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = XXShield_OSX_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "cocoapods.XXShield-OSX-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2128D88D1FD78B27004F63D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4348C85E0526D1FB32681FCD /* Pods-XXShield_OSX_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = XXShield_OSX_Example/XXShield_OSX_Example.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YMUB8PUSZ5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = XXShield_OSX_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "cocoapods.XXShield-OSX-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -603,6 +839,7 @@
 			baseConfigurationReference = 24F7ABBBD291BB26F5220B32 /* Pods-XXShield_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMUB8PUSZ5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XXShield/XXShield-Prefix.pch";
 				INFOPLIST_FILE = "XXShield/XXShield-Info.plist";
@@ -618,6 +855,7 @@
 			baseConfigurationReference = 605E5EA041E249575181AD27 /* Pods-XXShield_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMUB8PUSZ5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XXShield/XXShield-Prefix.pch";
 				INFOPLIST_FILE = "XXShield/XXShield-Info.plist";
@@ -684,6 +922,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2128D88E1FD78B27004F63D8 /* Build configuration list for PBXNativeTarget "XXShield_OSX_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2128D88C1FD78B27004F63D8 /* Debug */,
+				2128D88D1FD78B27004F63D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "XXShield" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
