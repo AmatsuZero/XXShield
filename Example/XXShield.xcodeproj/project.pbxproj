@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		21216B361FD7C2EB009CA804 /* XXTimerNSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21216B351FD7C2EB009CA804 /* XXTimerNSViewController.m */; };
 		21216B391FD7CC87009CA804 /* XXKVONSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21216B381FD7CC87009CA804 /* XXKVONSViewController.m */; };
+		21216B5D1FD7D71D009CA804 /* XXNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96440B1F1F50FC004EB2F2 /* XXNotificationObserver.m */; };
+		21216B6D1FD7DAE7009CA804 /* SDKSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8331A71FA9663000CA41A4 /* SDKSetup.m */; };
+		21216B6E1FD7DAEF009CA804 /* NullSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8331A41FA9661400CA41A4 /* NullSpec.m */; };
+		21216B6F1FD7DAF2009CA804 /* ContainerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8331A91FA972A400CA41A4 /* ContainerSpec.m */; };
+		21216B701FD7DB22009CA804 /* UnrecognizedSelectorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CE648A931FA9CE7E00B6BABD /* UnrecognizedSelectorSpec.m */; };
+		21216B711FD7DB2D009CA804 /* NotificationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CE648A951FA9D14300B6BABD /* NotificationSpec.m */; };
+		21216B721FD7DB31009CA804 /* DanglingPointerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CE648A971FA9EC9F00B6BABD /* DanglingPointerSpec.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21216B731FD7DC66009CA804 /* XXSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10249E1FA8A18C00F0EDA7 /* XXSpec.swift */; };
+		21216B751FD7E55A009CA804 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21216B741FD7E55A009CA804 /* XCTest.framework */; };
+		21216B771FD7E564009CA804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21216B761FD7E564009CA804 /* Foundation.framework */; };
+		21216B781FD7E666009CA804 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		21216B7A1FD7E934009CA804 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21216B791FD7E934009CA804 /* AppKit.framework */; };
 		2128D87F1FD78B27004F63D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2128D87E1FD78B27004F63D8 /* AppDelegate.m */; };
 		2128D8821FD78B27004F63D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2128D8811FD78B27004F63D8 /* ViewController.m */; };
 		2128D8841FD78B27004F63D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2128D8831FD78B27004F63D8 /* Assets.xcassets */; };
@@ -28,6 +40,7 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		609EE3AD4242B7B7273898DF /* Pods_XXShield_OSX_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9DA2FB5A763CCB6554DA0C /* Pods_XXShield_OSX_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A052D4DFCCBB9E5AC22A2B54 /* Pods_XXShield_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413AF1DA80D1CD40123DE248 /* Pods_XXShield_Example.framework */; };
@@ -48,6 +61,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		21216B681FD7DA61009CA804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2128D87A1FD78B26004F63D8;
+			remoteInfo = XXShield_OSX_Example;
+		};
 		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -62,6 +82,10 @@
 		21216B351FD7C2EB009CA804 /* XXTimerNSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXTimerNSViewController.m; sourceTree = "<group>"; };
 		21216B371FD7CC87009CA804 /* XXKVONSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXKVONSViewController.h; sourceTree = "<group>"; };
 		21216B381FD7CC87009CA804 /* XXKVONSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXKVONSViewController.m; sourceTree = "<group>"; };
+		21216B631FD7DA61009CA804 /* XXShield_OSX_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXShield_OSX_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21216B741FD7E55A009CA804 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		21216B761FD7E564009CA804 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		21216B791FD7E934009CA804 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		2128D87B1FD78B26004F63D8 /* XXShield_OSX_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXShield_OSX_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2128D87D1FD78B27004F63D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2128D87E1FD78B27004F63D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,7 +126,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8ED4B5E1A4E690247385A142 /* Pods-XXShield_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXShield_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXShield_Tests/Pods-XXShield_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		91200C86A959D09414E48007 /* Pods_XXShield_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXShield_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CB82A04AB4FD51B97F5A8E /* Pods-XXShield_OSX_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXShield_OSX_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXShield_OSX_Tests/Pods-XXShield_OSX_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A3E63806E16CFC48D7969CE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BA5E6F695944AFD574EC27D6 /* Pods-XXShield_OSX_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXShield_OSX_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXShield_OSX_Tests/Pods-XXShield_OSX_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE10249D1FA8A18C00F0EDA7 /* XXShield_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XXShield_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		CE10249E1FA8A18C00F0EDA7 /* XXSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXSpec.swift; sourceTree = "<group>"; };
 		CE648A931FA9CE7E00B6BABD /* UnrecognizedSelectorSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnrecognizedSelectorSpec.m; sourceTree = "<group>"; };
@@ -122,9 +148,21 @@
 		CE9644201F1F53D2004EB2F2 /* XXTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTimerViewController.h; sourceTree = "<group>"; };
 		CE9644211F1F53D2004EB2F2 /* XXTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTimerViewController.m; sourceTree = "<group>"; };
 		D5D64BCBDD700A05544EEBE3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DC9DA2FB5A763CCB6554DA0C /* Pods_XXShield_OSX_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXShield_OSX_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		21216B601FD7DA61009CA804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21216B7A1FD7E934009CA804 /* AppKit.framework in Frameworks */,
+				21216B771FD7E564009CA804 /* Foundation.framework in Frameworks */,
+				21216B751FD7E55A009CA804 /* XCTest.framework in Frameworks */,
+				609EE3AD4242B7B7273898DF /* Pods_XXShield_OSX_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2128D8781FD78B26004F63D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -167,6 +205,8 @@
 				8ED4B5E1A4E690247385A142 /* Pods-XXShield_Tests.release.xcconfig */,
 				4330CDEB016A71642EFB51EB /* Pods-XXShield_OSX_Example.debug.xcconfig */,
 				4348C85E0526D1FB32681FCD /* Pods-XXShield_OSX_Example.release.xcconfig */,
+				BA5E6F695944AFD574EC27D6 /* Pods-XXShield_OSX_Tests.debug.xcconfig */,
+				93CB82A04AB4FD51B97F5A8E /* Pods-XXShield_OSX_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -210,6 +250,7 @@
 				6003F58A195388D20070C39A /* XXShield_Example.app */,
 				6003F5AE195388D20070C39A /* XXShield_Tests.xctest */,
 				2128D87B1FD78B26004F63D8 /* XXShield_OSX_Example.app */,
+				21216B631FD7DA61009CA804 /* XXShield_OSX_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,6 +258,9 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				21216B791FD7E934009CA804 /* AppKit.framework */,
+				21216B761FD7E564009CA804 /* Foundation.framework */,
+				21216B741FD7E55A009CA804 /* XCTest.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -224,6 +268,7 @@
 				413AF1DA80D1CD40123DE248 /* Pods_XXShield_Example.framework */,
 				91200C86A959D09414E48007 /* Pods_XXShield_Tests.framework */,
 				6922071C42ECA3132066DFDF /* Pods_XXShield_OSX_Example.framework */,
+				DC9DA2FB5A763CCB6554DA0C /* Pods_XXShield_OSX_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -312,6 +357,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		21216B621FD7DA61009CA804 /* XXShield_OSX_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21216B6A1FD7DA61009CA804 /* Build configuration list for PBXNativeTarget "XXShield_OSX_Tests" */;
+			buildPhases = (
+				A2BB2F5EB564977036FC093A /* [CP] Check Pods Manifest.lock */,
+				21216B5F1FD7DA61009CA804 /* Sources */,
+				21216B601FD7DA61009CA804 /* Frameworks */,
+				21216B611FD7DA61009CA804 /* Resources */,
+				262E2613DD3091719342659E /* [CP] Embed Pods Frameworks */,
+				820839C062C4BD89ED8CC529 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21216B691FD7DA61009CA804 /* PBXTargetDependency */,
+			);
+			name = XXShield_OSX_Tests;
+			productName = XXShield_OSX_Tests;
+			productReference = 21216B631FD7DA61009CA804 /* XXShield_OSX_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2128D87A1FD78B26004F63D8 /* XXShield_OSX_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2128D88E1FD78B27004F63D8 /* Build configuration list for PBXNativeTarget "XXShield_OSX_Example" */;
@@ -380,9 +446,15 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = XX;
-				LastUpgradeCheck = 0720;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = ValiantCat;
 				TargetAttributes = {
+					21216B621FD7DA61009CA804 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2128D87A1FD78B26004F63D8;
+					};
 					2128D87A1FD78B26004F63D8 = {
 						CreatedOnToolsVersion = 9.2;
 						DevelopmentTeam = YMUB8PUSZ5;
@@ -413,11 +485,20 @@
 				6003F589195388D20070C39A /* XXShield_Example */,
 				6003F5AD195388D20070C39A /* XXShield_Tests */,
 				2128D87A1FD78B26004F63D8 /* XXShield_OSX_Example */,
+				21216B621FD7DA61009CA804 /* XXShield_OSX_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		21216B611FD7DA61009CA804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21216B781FD7E666009CA804 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2128D8791FD78B26004F63D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -449,6 +530,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		262E2613DD3091719342659E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XXShield_OSX_Tests/Pods-XXShield_OSX_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble-macOS/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick-macOS/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXShield_OSX_Tests/Pods-XXShield_OSX_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2B01D7E25C83D2680B5AF578 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -471,8 +572,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XXShield_Tests/Pods-XXShield_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble-iOS/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick-iOS/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -553,6 +654,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		820839C062C4BD89ED8CC529 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXShield_OSX_Tests/Pods-XXShield_OSX_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8CA86FDCB660787CB8B9B4B8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -589,6 +705,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXShield_Example/Pods-XXShield_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A2BB2F5EB564977036FC093A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XXShield_OSX_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E6EF88CF36458D9D4EAFC1BC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -607,12 +741,27 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		21216B5F1FD7DA61009CA804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21216B731FD7DC66009CA804 /* XXSpec.swift in Sources */,
+				21216B6F1FD7DAF2009CA804 /* ContainerSpec.m in Sources */,
+				21216B701FD7DB22009CA804 /* UnrecognizedSelectorSpec.m in Sources */,
+				21216B6E1FD7DAEF009CA804 /* NullSpec.m in Sources */,
+				21216B6D1FD7DAE7009CA804 /* SDKSetup.m in Sources */,
+				21216B721FD7DB31009CA804 /* DanglingPointerSpec.m in Sources */,
+				21216B711FD7DB2D009CA804 /* NotificationSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2128D8771FD78B26004F63D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2128D8821FD78B27004F63D8 /* ViewController.m in Sources */,
 				2128D88A1FD78B27004F63D8 /* main.m in Sources */,
+				21216B5D1FD7D71D009CA804 /* XXNotificationObserver.m in Sources */,
 				2128D8901FD78ED7004F63D8 /* Student.m in Sources */,
 				2128D88F1FD78EC5004F63D8 /* Person.m in Sources */,
 				2128D87F1FD78B27004F63D8 /* AppDelegate.m in Sources */,
@@ -653,6 +802,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		21216B691FD7DA61009CA804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2128D87A1FD78B26004F63D8 /* XXShield_OSX_Example */;
+			targetProxy = 21216B681FD7DA61009CA804 /* PBXContainerItemProxy */;
+		};
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* XXShield_Example */;
@@ -696,6 +850,90 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		21216B6B1FD7DA61009CA804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA5E6F695944AFD574EC27D6 /* Pods-XXShield_OSX_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "cocoapods.XXShield-OSX-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/XXShield_Tests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XXShield_OSX_Example.app/Contents/MacOS/XXShield_OSX_Example";
+			};
+			name = Debug;
+		};
+		21216B6C1FD7DA61009CA804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93CB82A04AB4FD51B97F5A8E /* Pods-XXShield_OSX_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "cocoapods.XXShield-OSX-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/XXShield_Tests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XXShield_OSX_Example.app/Contents/MacOS/XXShield_OSX_Example";
+			};
+			name = Release;
+		};
 		2128D88C1FD78B27004F63D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4330CDEB016A71642EFB51EB /* Pods-XXShield_OSX_Example.debug.xcconfig */;
@@ -936,6 +1174,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		21216B6A1FD7DA61009CA804 /* Build configuration list for PBXNativeTarget "XXShield_OSX_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21216B6B1FD7DA61009CA804 /* Debug */,
+				21216B6C1FD7DA61009CA804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2128D88E1FD78B27004F63D8 /* Build configuration list for PBXNativeTarget "XXShield_OSX_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
